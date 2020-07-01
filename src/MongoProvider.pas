@@ -180,7 +180,7 @@ type
 
 implementation
 
-uses MongoException, Windows, BSON, Variants, Math, MongoMD5;
+uses MongoException, BSON, Variants, Math, MongoMD5;
 
 { TDefaultMongoProvider }
 

@@ -72,7 +72,7 @@ type
 implementation
 
 uses DateUtils, SysUtils, Variants, BSON, MongoException, Classes, 
-  MongoUtils, Windows;
+  MongoUtils;
 
 { TDefaultMongoEncoder }
 

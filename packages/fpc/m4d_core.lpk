@@ -1,18 +1,16 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Package Version="3">
+  <Package Version="5">
     <PathDelim Value="\"/>
     <Name Value="M4D_Core"/>
+    <AddToProjectUsesSection Value="True"/>
     <CompilerOptions>
-      <Version Value="9"/>
+      <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
         <OtherUnitFiles Value="..\..\src"/>
         <UnitOutputDirectory Value="lib"/>
       </SearchPaths>
-      <Other>
-        <CompilerPath Value="$(CompPath)"/>
-      </Other>
     </CompilerOptions>
     <Description Value="Mongo Driver for Delphi - M4D"/>
     <Files Count="12">
@@ -65,11 +63,18 @@
         <UnitName Value="BSONDBRef"/>
       </Item12>
     </Files>
-    <RequiredPkgs Count="1">
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="3">
       <Item1>
+        <PackageName Value="laz_synapse"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
         <PackageName Value="FCL"/>
         <MinVersion Major="1" Valid="True"/>
-      </Item1>
+      </Item3>
     </RequiredPkgs>
     <UsageOptions>
       <UnitPath Value="$(PkgOutDir)"/>
