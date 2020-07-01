@@ -1,9 +1,11 @@
-This project is now maintain by me. Spesific support for freepascal release version.
+MongoDB Driver for Freepascal
+-------------------------
+This project is now maintain by me. Spesific support for freepascal release version. fork from https://github.com/fabriciocolombo/mongo4delphi
 
-MongoDB Driver for Delphi/FreePascal
+MongoDB Driver for FreePascal
 -------------------------
 
-A mongodb driver for Delphi/FreePascal in intermediary stage with a friendly API based on java driver.
+A mongodb driver for FreePascal in intermediary stage with a friendly API based on java driver.
 The delphi native types are mapped onto Delphi Variant and the more complex types (like ObjectId, Array, etc) 
 has an specific implementation.
 
