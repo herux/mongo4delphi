@@ -3,7 +3,7 @@ unit uFind;
 interface
 
 uses
-  Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, BSONTypes, ComCtrls, StdCtrls, QueryBuilder;
 
 type

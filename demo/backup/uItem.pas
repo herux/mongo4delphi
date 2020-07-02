@@ -4,7 +4,7 @@ interface
 
 uses
   Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, ExtDlgs, BSONTypes, ComCtrls, DateTimePicker;
+  Dialogs, StdCtrls, ExtCtrls, ExtDlgs, BSONTypes, ComCtrls;
 
 type
   TFrm_Item = class(TForm)
