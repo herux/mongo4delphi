@@ -54,7 +54,9 @@
       <Unit>
         <Filename Value="uFind.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="Frm_Find"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -64,6 +66,8 @@
       <Filename Value="Demo"/>
     </Target>
     <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="../src"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
   </CompilerOptions>

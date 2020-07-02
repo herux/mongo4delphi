@@ -129,7 +129,8 @@ begin
       Frm_Item.Free;
     end;
   end else
-    MessageBox(Handle, PAnsiChar('No record selected.'), PAnsiChar('Error'), MB_OK or MB_ICONERROR);
+    //ShowMessage();
+    Application.MessageBox(PAnsiChar('No record selected.'), PAnsiChar('Error'));
 end;
 
 function TFrm_MainForm.Current: IBSONObject;

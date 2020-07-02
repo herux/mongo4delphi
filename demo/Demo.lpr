@@ -8,6 +8,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces,
+  Forms,
   uMainForm in 'uMainForm.pas' {Frm_MainForm},
   uItem in 'uItem.pas' {Frm_Item},
   uFind in 'uFind.pas', m4d_core {Frm_Find};
