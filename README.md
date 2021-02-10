@@ -1,6 +1,6 @@
 MongoDB Driver for Freepascal
 -------------------------
-This project is now maintain by me. Spesific support for freepascal release version. fork from https://github.com/fabriciocolombo/mongo4delphi
+This project is now maintain by me. Specific support for freepascal release version. fork from https://github.com/fabriciocolombo/mongo4delphi
 
 MongoDB Driver for FreePascal
 -------------------------
